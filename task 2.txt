@@ -1,0 +1,48 @@
+Differences between browser js and node js :
+
+Browser JS                                                                                  Node JS
+
+1. It is used on the client side.                                            1. It is used mostly on the server side. 
+
+2. Javascript is capable enough to                                    2. Nodejs does not have capability to add HTML tags.
+add HTML and play with the DOM.
+
+3. It is used in the front end development.                        3. Nodejs is used in server-side development.
+
+4. Javascript can run in any browser engine as               4. V8 is the Javascript engine inside of node.js that parses and runs Javascript.
+    like JS core in safari and Spidermonkey
+    in Firefox.
+
+5. Moduling is not mandatory in Browser JS .                 5. In Node JS everything is a module. You must keep your code inside a module.
+
+
+Summary :
+
+1. The browser contains a html parser and css parser.
+
+2. The html parser creates a DOM tree, whereas the CSS parser creates a CSSOM tree.
+
+3.HTML parser doesn't stop parsing when there is an error. The HTML parsing isn't straightforward , can be halted and will do  speculative parsing.
+
+4. The parsing flow is at first the text is converted into tokens, then tree is constructed and later DOM is created and then the script is executed.
+
+5. A render tree is created from DOM tree and CSSOM tree.
+
+
+1. Executing typeof(1) gives the type as number.
+
+2. Executing typeof(1.1) gives the type as number.
+
+3. Executing typeof('1.1') gives the type as string.
+
+4. Executing typeof(true) gives the type as boolean.
+
+5. Executing typeof(null) gives the type as object.
+
+6. Executing typeof(undefined) gives the type as undefined.
+
+7. Executing typeof([]) gives the type as object
+
+8. Executing typeof({})  gives the type as object
+
+9. Executing typeof(NaN) gives the type as number
